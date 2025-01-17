@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+	<head>
+		<dateCreated>Sat Mar 19 2022 20:10:29 GMT+0100 (Central European Standard Time)</dateCreated>
+		<dateModified>Sat Mar 19 2022 20:10:29 GMT+0100 (Central European Standard Time)</dateModified>
+	</head>
+	<body>
+		<outline text="CAPEC
+S.T.R.I.D.E.
+Mapping" type="link" _url="https://capec.mitre.org/data/definitions/1000.html">
+			<outline text="Information Disclosure">
+				<outline text="CAPEC-129: Pointer Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/129.html"></outline>
+				<outline text="CAPEC-212: Functionality Misuse" type="link" _url="https://capec.mitre.org/data/definitions/212.html">
+					<outline text="CAPEC-48: Passing Local Filenames to Functions That Expect a URL" type="link" _url="https://capec.mitre.org/data/definitions/48.html"></outline>
+					<outline text="CAPEC-111: JSON Hijacking 
+(aka JavaScript Hijacking)" type="link" _url="https://capec.mitre.org/data/definitions/111.html"></outline>
+					<outline text="CAPEC-620: Drop Encryption Level" type="link" _url="https://capec.mitre.org/data/definitions/620.html">
+						<outline text="CAPEC-606: Weakening of Cellular Encryption" type="link" _url="https://capec.mitre.org/data/definitions/606.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-216: Communication Channel Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/216.html">
+					<outline text="CAPEC-12: Choosing Message Identifier" type="link" _url="https://capec.mitre.org/data/definitions/12.html"></outline>
+					<outline text="CAPEC-217: Exploiting Incorrectly Configured SSL" type="link" _url="https://capec.mitre.org/data/definitions/217.html"></outline>
+				</outline>
+				<outline text="CAPEC-554: Functionality Bypass" type="link" _url="https://capec.mitre.org/data/definitions/554.html">
+					<outline text="CAPEC-179: Calling Micro-Services Directly" type="link" _url="https://capec.mitre.org/data/definitions/179.html"></outline>
+					<outline text="CAPEC-464: Evercookie" type="link" _url="https://capec.mitre.org/data/definitions/464.html"></outline>
+					<outline text="CAPEC-465: Transparent Proxy Abuse" type="link" _url="https://capec.mitre.org/data/definitions/465.html"></outline>
+				</outline>
+				<outline text="CAPEC-117: Interception" type="link" _url="https://capec.mitre.org/data/definitions/117.html">
+					<outline text="CAPEC-157: Sniffing Attacks" type="link" _url="https://capec.mitre.org/data/definitions/157.html">
+						<outline text="CAPEC-57: Utilising REST&apos;s Trust in the System Resources to Obtain Sensitive Data" type="link" _url="https://capec.mitre.org/data/definitions/57.html"></outline>
+						<outline text="CAPEC-65: Sniff Application Code" type="link" _url="https://capec.mitre.org/data/definitions/65.html"></outline>
+						<outline text="CAPEC-158: Sniffing Network Traffic" type="link" _url="https://capec.mitre.org/data/definitions/158.html"></outline>
+						<outline text="CAPEC-609: Cellular Traffic Intercept" type="link" _url="https://capec.mitre.org/data/definitions/609.html"></outline>
+					</outline>
+					<outline text="CAPEC-499: Android Intent Intercept" type="link" _url="https://capec.mitre.org/data/definitions/499.html">
+						<outline text="CAPEC-501: Android Activity Hijack" type="link" _url="https://capec.mitre.org/data/definitions/501.html"></outline>
+					</outline>
+					<outline text="CAPEC-651: Eavesdropping" type="link" _url="https://capec.mitre.org/data/definitions/651.html">
+						<outline text="CAPEC-508: Shoulder Surfing" type="link" _url="https://capec.mitre.org/data/definitions/508.html"></outline>
+						<outline text="CAPEC-634: Probe Audio and Video Peripherals" type="link" _url="https://capec.mitre.org/data/definitions/634.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-116: Excavation" type="link" _url="https://capec.mitre.org/data/definitions/116.html">
+					<outline text="CAPEC-54: Query System for Information" type="link" _url="https://capec.mitre.org/data/definitions/54.html">
+						<outline text="CAPEC-127: Directory Indexing" type="link" _url="https://capec.mitre.org/data/definitions/127.html"></outline>
+						<outline text="CAPEC-95: WSDL Scanning" type="link" _url="https://capec.mitre.org/data/definitions/95.html"></outline>
+						<outline text="CAPEC-215: Fuzzing for Application Mapping" type="link" _url="https://capec.mitre.org/data/definitions/215.html"></outline>
+						<outline text="CAPEC-261: Fuzzing for Garnering Other Adjacent user/sensitive data" type="link" _url="https://capec.mitre.org/data/definitions/261.html"></outline>
+						<outline text="CAPEC-462: Cross-Domain Search Timing" type="link" _url="https://capec.mitre.org/data/definitions/462.html"></outline>
+					</outline>
+					<outline text="CAPEC:150: Collect Data From Common Resource Locations" type="link" _url="https://capec.mitre.org/data/definitions/150.html">
+						<outline text="CAPEC-143: Detect Unpublicised Web Pages" type="link" _url="https://capec.mitre.org/data/definitions/143.html"></outline>
+						<outline text="CAPEC-144: Detect Unpublicised Web Services" type="link" _url="https://capec.mitre.org/data/definitions/144.html"></outline>
+						<outline text="CAPEC-155: Screen Temporary Files for Sensitive Information" type="link" _url="https://capec.mitre.org/data/definitions/155.html"></outline>
+						<outline text="CAPEC-406: Dumpster Diving" type="link" _url="https://capec.mitre.org/data/definitions/406.html"></outline>
+						<outline text="CAPEC-637: Collect Data from Clipboard" type="link" _url="https://capec.mitre.org/data/definitions/637.html"></outline>
+						<outline text="CAPEC-647: Collect Data from Registries" type="link" _url="https://capec.mitre.org/data/definitions/647.html"></outline>
+						<outline text="CAPEC-648: Collect Data from Screen Capture" type="link" _url="https://capec.mitre.org/data/definitions/648.html"></outline>
+					</outline>
+					<outline text="CAPEC-545: Pull Data From System Resources" type="link" _url="https://capec.mitre.org/data/definitions/545.html">
+						<outline text="CAPEC-498: Probe iOS Screenshots" type="link" _url="https://capec.mitre.org/data/definitions/498.html"></outline>
+						<outline text="CAPEC-546: Incomplete Data Deletion in a Multi-Tenant Environment" type="link" _url="https://capec.mitre.org/data/definitions/546.html"></outline>
+						<outline text="CAPEC-634: Probe Audio and Video Peripherals" type="link" _url="https://capec.mitre.org/data/definitions/634.html"></outline>
+						<outline text="CAPEC-639: Probe System Files" type="link" _url="https://capec.mitre.org/data/definitions/639.html"></outline>
+					</outline>
+					<outline text="CAPEC-569: Collect Data as Provided by Users" type="link" _url="https://capec.mitre.org/data/definitions/569.html">
+						<outline text="CAPEC-568: Capture Credentials via Keylogger" type="link" _url="https://capec.mitre.org/data/definitions/568.html"></outline>
+					</outline>
+					<outline text="CAPEC-675: Retrieve Data from Decommissioned Devices" type="link" _url="https://capec.mitre.org/data/definitions/675.html"></outline>
+				</outline>
+				<outline text="CAPEC-169: Footprinting" type="link" _url="https://capec.mitre.org/data/definitions/169.html">
+					<outline text="CAPEC-292: Host Discovery" type="link" _url="https://capec.mitre.org/data/definitions/292.html">
+						<outline text="CAPEC-285: ICMP Echo Request Ping" type="link" _url="https://capec.mitre.org/data/definitions/285.html"></outline>
+						<outline text="CAPEC-294: ICMP Address Mask Request" type="link" _url="https://capec.mitre.org/data/definitions/294.html"></outline>
+						<outline text="CAPEC-295: Timestamp Request" type="link" _url="https://capec.mitre.org/data/definitions/295.html"></outline>
+						<outline text="CAPEC-296: ICMP Information Request" type="link" _url="https://capec.mitre.org/data/definitions/296.html"></outline>
+						<outline text="CAPEC-297: TCP ACK Ping" type="link" _url="https://capec.mitre.org/data/definitions/297.html"></outline>
+						<outline text="CAPEC-298: UDP Ping" type="link" _url="https://capec.mitre.org/data/definitions/298.html"></outline>
+						<outline text="CAPEC-299: TCP SYN Ping" type="link" _url="https://capec.mitre.org/data/definitions/299.html"></outline>
+						<outline text="CAPEC-612: WiFi MAC Address Tracking" type="link" _url="https://capec.mitre.org/data/definitions/612.html"></outline>
+						<outline text="CAPEC-613: WiFi SSID Tracking" type="link" _url="https://capec.mitre.org/data/definitions/613.html"></outline>
+						<outline text="CAPEC-618: Cellular Broadcast Message Request" type="link" _url="https://capec.mitre.org/data/definitions/618.html"></outline>
+						<outline text="CAPEC-619: Signal Strength Tracking" type="link" _url="https://capec.mitre.org/data/definitions/619.html"></outline>
+					</outline>
+					<outline text="CAPEC-300: Port Scanning" type="link" _url="https://capec.mitre.org/data/definitions/300.html">
+						<outline text="CAPEC-287: TCP SYN Scan" type="link" _url="https://capec.mitre.org/data/definitions/287.html"></outline>
+						<outline text="CAPEC-301: TCP Connect Scan" type="link" _url="https://capec.mitre.org/data/definitions/301.html"></outline>
+						<outline text="CAPEC-302: TCP FIN Scan" type="link" _url="https://capec.mitre.org/data/definitions/302.html"></outline>
+						<outline text="CAPEC-303: TCP Xmas Scan" type="link" _url="https://capec.mitre.org/data/definitions/303.html"></outline>
+						<outline text="CAPEC-304: TCP Null Scan" type="link" _url="https://capec.mitre.org/data/definitions/304.html"></outline>
+						<outline text="CAPEC-305: TCP ACK Scan" type="link" _url="https://capec.mitre.org/data/definitions/305.html"></outline>
+						<outline text="CAPEC-306: TCP Window Scan" type="link" _url="https://capec.mitre.org/data/definitions/306.html"></outline>
+						<outline text="CAPEC-307: TCP RPC Scan" type="link" _url="https://capec.mitre.org/data/definitions/307.html"></outline>
+						<outline text="CAPEC-308: UDP Scan" type="link" _url="https://capec.mitre.org/data/definitions/308.html"></outline>
+					</outline>
+					<outline text="CAPEC-309: Network Topology Mapping" type="link" _url="https://capec.mitre.org/data/definitions/309.html">
+						<outline text="CAPEC-290: Enumerate Mail Exchange Records" type="link" _url="https://capec.mitre.org/data/definitions/290.html"></outline>
+						<outline text="CAPEC-291: DNS Zone Transfers" type="link" _url="https://capec.mitre.org/data/definitions/291.html"></outline>
+						<outline text="CAPEC-293: Traceroute Route Enumeration" type="link" _url="https://capec.mitre.org/data/definitions/293.html"></outline>
+						<outline text="CAPEC-643: Identify Shared Files/Directories on System" type="link" _url="https://capec.mitre.org/data/definitions/643.html"></outline>
+					</outline>
+					<outline text="CAPEC-497: File Discovery" type="link" _url="https://capec.mitre.org/data/definitions/497.html">
+						<outline text="CAPEC-149: Explore for Predictable Temporary File Names" type="link" _url="https://capec.mitre.org/data/definitions/149.html"></outline>
+					</outline>
+					<outline text="CAPEC-529: Malware-Directed Internal Reconnaissance" type="link" _url="https://capec.mitre.org/data/definitions/529.html"></outline>
+					<outline text="CAPEC-573: Process Footprinting" type="link" _url="https://capec.mitre.org/data/definitions/573.html"></outline>
+					<outline text="CAPEC-574: Services Footprinting" type="link" _url="https://capec.mitre.org/data/definitions/574.html"></outline>
+					<outline text="CAPEC-575: Account Footprinting" type="link" _url="https://capec.mitre.org/data/definitions/575.html"></outline>
+					<outline text="CAPEC-576: Group Permission Footprinting" type="link" _url="https://capec.mitre.org/data/definitions/576.html"></outline>
+					<outline text="CAPEC-577: Owner Footprinting" type="link" _url="https://capec.mitre.org/data/definitions/577.html"></outline>
+					<outline text="CAPEC-580: System Footprinting" type="link" _url="https://capec.mitre.org/data/definitions/580.html">
+						<outline text="CAPEC-85: AJAX Footprinting" type="link" _url="https://capec.mitre.org/data/definitions/85.html"></outline>
+						<outline text="CAPEC-581: Security Software Footprinting" type="link" _url="https://capec.mitre.org/data/definitions/581.html"></outline>
+					</outline>
+					<outline text="CAPEC-646: Peripheral Footprinting" type="link" _url="https://capec.mitre.org/data/definitions/646.html"></outline>
+				</outline>
+				<outline text="CAPEC-224: Fingerprinting">
+					<outline text="CAPEC-312: Active OS Fingerprinting" type="link" _url="https://capec.mitre.org/data/definitions/312.html">
+						<outline text="CAPEC-317: IP ID Sequencing Probe" type="link" _url="https://capec.mitre.org/data/definitions/317.html"></outline>
+						<outline text="CAPEC-318: IP &apos;ID&apos; Echoed Byte-Order Probe" type="link" _url="https://capec.mitre.org/data/definitions/318.html"></outline>
+						<outline text="CAPEC-319: IP (DF) &apos;Don&apos;t Fragment Bit&apos; Echoing Probe" type="link" _url="https://capec.mitre.org/data/definitions/319.html"></outline>
+						<outline text="CAPEC-320: TCP Timestamp Probe" type="link" _url="https://capec.mitre.org/data/definitions/320.html"></outline>
+						<outline text="CAPEC-321: 	TCP Sequence Number Probe" type="link" _url="https://capec.mitre.org/data/definitions/321.html"></outline>
+						<outline text="CAPEC-322: TCP (ISN) Greatest Common Divisor Probe" type="link" _url="https://capec.mitre.org/data/definitions/322.html"></outline>
+						<outline text="CAPEC-323: 	TCP (ISN) Counter Rate Probe" type="link" _url="https://capec.mitre.org/data/definitions/323.html"></outline>
+						<outline text="CAPEC-324: TCP (ISN) Sequence Predictability Probe" type="link" _url="https://capec.mitre.org/data/definitions/324.html"></outline>
+						<outline text="CAPEC-325: TCP Congestion Control Flag (ECN) Probe" type="link" _url="https://capec.mitre.org/data/definitions/325.html"></outline>
+						<outline text="CAPEC-326: TCP Initial Window Size Probe" type="link" _url="https://capec.mitre.org/data/definitions/326.html"></outline>
+						<outline text="CAPEC-327: 	TCP Options Probe" type="link" _url="https://capec.mitre.org/data/definitions/327.html"></outline>
+						<outline text="CAPEC-328: TCP &apos;RST&apos; Flag Checksum Probe" type="link" _url="https://capec.mitre.org/data/definitions/328.html"></outline>
+						<outline text="CAPEC-329: ICMP Error Message Quoting Probe" type="link" _url="https://capec.mitre.org/data/definitions/329.html"></outline>
+						<outline text="CAPEC-330: ICMP Error Message Echoing Integrity Probe" type="link" _url="https://capec.mitre.org/data/definitions/330.html"></outline>
+						<outline text="CAPEC-331: 	ICMP IP Total Length Field Probe" type="link" _url="https://capec.mitre.org/data/definitions/331.html"></outline>
+						<outline text="CAPEC-332: 	ICMP IP &apos;ID&apos; Field Error Message Probe" type="link" _url="https://capec.mitre.org/data/definitions/332.html"></outline>
+					</outline>
+					<outline text="CAPEC-313: Passive OS Fingerprinting" type="link" _url="https://capec.mitre.org/data/definitions/313.html"></outline>
+					<outline text="CAPEC-541: Application Fingerprinting" type="link" _url="https://capec.mitre.org/data/definitions/541.html">
+						<outline text="CAPEC-170: Web Application Fingerprinting" type="link" _url="https://capec.mitre.org/data/definitions/170.html"></outline>
+						<outline text="CAPEC-310: Scanning for Vulnerable Software" type="link" _url="https://capec.mitre.org/data/definitions/310.html"></outline>
+						<outline text="CAPEC-472: Browser Fingerprinting" type="link" _url="https://capec.mitre.org/data/definitions/472.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-11: Cause Web Server Misclassification" type="link" _url="https://capec.mitre.org/data/definitions/11.html"></outline>
+				<outline text="CAPEC-192: Protocol Analysis" type="link" _url="https://capec.mitre.org/data/definitions/192.html">
+					<outline text="CAPEC-97: Cryptanalysis" type="link" _url="https://capec.mitre.org/data/definitions/97.html">
+						<outline text="CAPEC-463: Padding Oracle Crypto Attack" type="link" _url="https://capec.mitre.org/data/definitions/463.html"></outline>
+						<outline text="CAPEC-608: Cryptanalysis of Cellular Encryption" type="link" _url="https://capec.mitre.org/data/definitions/608.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-188: Reverse Engineering" type="link" _url="https://capec.mitre.org/data/definitions/188.html">
+					<outline text="CAPEC-167: White Box Reverse Engineering" type="link" _url="https://capec.mitre.org/data/definitions/167.html">
+						<outline text="CAPEC-37: Retrieve Embedded Sensitive Information" type="link" _url="https://capec.mitre.org/data/definitions/37.html"></outline>
+						<outline text="CAPEC-190: Reverse Engineer an Executable to Expose Assumed Hidden Functionality" type="link" _url="https://capec.mitre.org/data/definitions/190.html"></outline>
+						<outline text="CAPEC-191: Read Sensitive Constants Within an Executable" type="link" _url="https://capec.mitre.org/data/definitions/191.html"></outline>
+						<outline text="CAPEC-204: Lifting Sensitive Data Embedded in Cache" type="link" _url="https://capec.mitre.org/data/definitions/204.html"></outline>
+					</outline>
+					<outline text="CAPEC-189: Black Box Reverse Engineering" type="link" _url="https://capec.mitre.org/data/definitions/189.html">
+						<outline text="CAPEC-621: Analysis of Packet Timing and Sizes" type="link" _url="https://capec.mitre.org/data/definitions/621.html"></outline>
+						<outline text="CAPEC-622: Electromagnetic Side-Channel Attack" type="link" _url="https://capec.mitre.org/data/definitions/622.html"></outline>
+						<outline text="CAPEC-623: Compromising Emanations Attack" type="link" _url="https://capec.mitre.org/data/definitions/623.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-410: Information Elicitation" type="link" _url="https://capec.mitre.org/data/definitions/410.html">
+					<outline text="CAPEC-407: Pretexting" type="link" _url="https://capec.mitre.org/data/definitions/407.html">
+						<outline text="CAPEC-383: Harvesting Information via API Event Monitoring" type="link" _url="https://capec.mitre.org/data/definitions/383.html"></outline>
+						<outline text="CAPEC-412: Pretexting via Customer Service" type="link" _url="https://capec.mitre.org/data/definitions/412.html"></outline>
+						<outline text="CAPEC-413: Pretexting via Tech Support" type="link" _url="https://capec.mitre.org/data/definitions/413.html"></outline>
+						<outline text="CAPEC-414: Pretexting via Delivery Person" type="link" _url="https://capec.mitre.org/data/definitions/414.html"></outline>
+						<outline text="CAPEC-415: Pretexting via Phone" type="link" _url="https://capec.mitre.org/data/definitions/415.html"></outline>
+					</outline>
+				</outline>
+			</outline>
+			<outline text="Elevation of Privilege">
+				<outline text="CAPEC-5: Blue Boxing" type="link" _url="https://capec.mitre.org/data/definitions/5.html"></outline>
+				<outline text="CAPEC-21: Exploitation of Trusted Identifiers" type="link" _url="https://capec.mitre.org/data/definitions/21.html">
+					<outline text="CAPEC-196: Session Credential Falsification through Forging" type="link" _url="https://capec.mitre.org/data/definitions/196.html">
+						<outline text="CAPEC-226: Session Credential Falsification through Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/226.html"></outline>
+						<outline text="CAPEC-59: Session Credential Falsification through Prediction" type="link" _url="https://capec.mitre.org/data/definitions/59.html"></outline>
+					</outline>
+					<outline text="CAPEC-510: SaaS User Request Forgery" type="link" _url="https://capec.mitre.org/data/definitions/510.html"></outline>
+					<outline text="CAPEC-593: Session Hijacking" type="link" _url="https://capec.mitre.org/data/definitions/593.html">
+						<outline text="CAPEC-102: Session Sidejacking" type="link" _url="https://capec.mitre.org/data/definitions/102.html"></outline>
+						<outline text="CAPEC-107: Cross Site Tracing" type="link" _url="https://capec.mitre.org/data/definitions/107.html"></outline>
+						<outline text="CAPEC-60: Reusing Session IDs 
+(aka Session Replay)" type="link" _url="https://capec.mitre.org/data/definitions/60.html"></outline>
+						<outline text="CAPEC-61: Session Fixation" type="link" _url="https://capec.mitre.org/data/definitions/61.html"></outline>
+					</outline>
+					<outline text="CAPEC-62: Cross Site Request Forgery" type="link" _url="https://capec.mitre.org/data/definitions/62.html">
+						<outline text="CAPEC-467: Cross Site Identification" type="link" _url="https://capec.mitre.org/data/definitions/467.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-114: Authentication Abuse" type="link" _url="https://capec.mitre.org/data/definitions/114.html">
+					<outline text="CAPEC-629: Unauthorized Use of Device Resources" type="link" _url="https://capec.mitre.org/data/definitions/629.html"></outline>
+					<outline text="CAPEC-90: Reflection Attack in Authentication Protocol" type="link" _url="https://capec.mitre.org/data/definitions/90.html"></outline>
+				</outline>
+				<outline text="CAPEC-115: Authentication Bypass" type="link" _url="https://capec.mitre.org/data/definitions/115.html">
+					<outline text="CAPEC-461: Web Services API Signature Forgery Leveraging Hash Function Extension Weakness" type="link" _url="https://capec.mitre.org/data/definitions/461.html"></outline>
+					<outline text="CAPEC-480: Escaping Virtualization" type="link" _url="https://capec.mitre.org/data/definitions/480.html">
+						<outline text="CAPEC-237: Escaping a Sandbox by Calling Code in Another Language" type="link" _url="https://capec.mitre.org/data/definitions/237.html"></outline>
+					</outline>
+					<outline text="CAPEC-664: Server Side Request Forgery" type="link" _url="https://capec.mitre.org/data/definitions/664.html"></outline>
+					<outline text="CAPEC-668: Key Negotiation of Bluetooth Attack (KNOB)" type="link" _url="https://capec.mitre.org/data/definitions/668.html"></outline>
+					<outline text="CAPEC-87: Forceful Browsing" type="link" _url="https://capec.mitre.org/data/definitions/87.html"></outline>
+				</outline>
+				<outline text="CAPEC-22: Exploiting Trust in Client" type="link" _url="https://capec.mitre.org/data/definitions/22.html">
+					<outline text="CAPEC-202: Create Malicious Client" type="link" _url="https://capec.mitre.org/data/definitions/202.html"></outline>
+					<outline text="CAPEC-207: Removing Important Client Functionality" type="link" _url="https://capec.mitre.org/data/definitions/207.html">
+						<outline text="CAPEC-200: Removal of filters: Input filters, output filters, data masking" type="link" _url="https://capec.mitre.org/data/definitions/200.html"></outline>
+						<outline text="CAPEC-208: Removing/short-circuiting &apos;Purse&apos; logic: removing/mutating &apos;cash&apos; decrements" type="link" _url="https://capec.mitre.org/data/definitions/208.html"></outline>
+					</outline>
+					<outline text="CAPEC-39: Manipulating Opaque Client-based Data Tokens" type="link" _url="https://capec.mitre.org/data/definitions/39.html">
+						<outline text="CAPEC-31: Accessing/Intercepting/Modifying HTTP Cookies" type="link" _url="https://capec.mitre.org/data/definitions/31.html"></outline>
+					</outline>
+					<outline text="CAPEC-77: Manipulating User-Controlled Variables" type="link" _url="https://capec.mitre.org/data/definitions/77.html">
+						<outline text="CAPEC-13: Subverting Environment Variable Values" type="link" _url="https://capec.mitre.org/data/definitions/13.html"></outline>
+						<outline text="CAPEC-162: Manipulating Hidden Fields" type="link" _url="https://capec.mitre.org/data/definitions/162.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-94: Adversary in the Middle
+(AiTM)" type="link" _url="https://capec.mitre.org/data/definitions/94.html">
+					<outline text="CAPEC-219: XML Routing Detour Attacks" type="link" _url="https://capec.mitre.org/data/definitions/219.html"></outline>
+					<outline text="CAPEC-384: Application API Message Manipulation via Man-in-the-Middle" type="link" _url="https://capec.mitre.org/data/definitions/384.html">
+						<outline text="CAPEC-385: Transaction or Event Tampering via Application API Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/385.html"></outline>
+						<outline text="CAPEC-389: Content Spoofing Via Application API Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/389.html"></outline>
+					</outline>
+					<outline text="CAPEC-386: Application API Navigation Remapping" type="link" _url="https://capec.mitre.org/data/definitions/386.html">
+						<outline text="CAPEC-387: Navigation Remapping To Propagate Malicious Content" type="link" _url="https://capec.mitre.org/data/definitions/387.html"></outline>
+						<outline text="CAPEC-388: Application API Button Hijacking" type="link" _url="https://capec.mitre.org/data/definitions/388.html"></outline>
+					</outline>
+					<outline text="CAPEC-466: Leveraging Active Adversary in the Middle Attacks to Bypass Same Origin Policy" type="link" _url="https://capec.mitre.org/data/definitions/466.html"></outline>
+					<outline text="CAPEC-662: Adversary in the Browser (AiTB)" type="link" _url="https://capec.mitre.org/data/definitions/662.html"></outline>
+				</outline>
+				<outline text="CAPEC-122: Privilege Abuse" type="link" _url="https://capec.mitre.org/data/definitions/122.html">
+					<outline text="CAPEC-1: Accessing Functionality Not Properly Constrained by ACLs" type="link" _url="https://capec.mitre.org/data/definitions/1.html">
+						<outline text="CAPEC-58: Restful Privilege Elevation" type="link" _url="https://capec.mitre.org/data/definitions/58.html"></outline>
+						<outline text="CAPEC-679: Exploitation of Improperly Configured or Implemented Memory Protections" type="link" _url="https://capec.mitre.org/data/definitions/679.html"></outline>
+						<outline text="CAPEC-680: Exploitation of Improperly Controlled Registers" type="link" _url="https://capec.mitre.org/data/definitions/680.html"></outline>
+						<outline text="CAPEC-681: Exploitation of Improperly Controlled Hardware Security Identifiers" type="link" _url="https://capec.mitre.org/data/definitions/681.html"></outline>
+						<outline text="CAPEC-36: Using Unpublished Interfaces" type="link" _url="https://capec.mitre.org/data/definitions/36.html"></outline>
+						<outline text="CAPEC-121: Exploit Non-Production Interfaces" type="link" _url="https://capec.mitre.org/data/definitions/121.html">
+							<outline text="CAPEC-661: Root/Jailbreak Detection Evasion via Debugging" type="link" _url="https://capec.mitre.org/data/definitions/661.html"></outline>
+						</outline>
+					</outline>
+					<outline text="CAPEC-17: Using Malicious Files" type="link" _url="https://capec.mitre.org/data/definitions/17.html">
+						<outline text="CAPEC-177: Create files with the same name as files protected with a higher classification" type="link" _url="https://capec.mitre.org/data/definitions/177.html"></outline>
+						<outline text="CAPEC-263: Force Use of Corrupted Files" type="link" _url="https://capec.mitre.org/data/definitions/263.html"></outline>
+						<outline text="CAPEC-562: Modify Shared File" type="link" _url="https://capec.mitre.org/data/definitions/562.html"></outline>
+						<outline text="CAPEC-563: Add Malicious File to Shared Webroot" type="link" _url="https://capec.mitre.org/data/definitions/563.html"></outline>
+						<outline text="CAPEC-642: Replace Binaries" type="link" _url="https://capec.mitre.org/data/definitions/642.html"></outline>
+						<outline text="CAPEC-650: Upload a Web Shell to a Web Server" type="link" _url="https://capec.mitre.org/data/definitions/650.html"></outline>
+						<outline text="CAPEC-35: Leveraging Executable Code in Non-Executable Files" type="link" _url="https://capec.mitre.org/data/definitions/35.html"></outline>
+					</outline>
+					<outline text="CAPEC-180: Exploiting Incorrectly Configured Access Control Security Levels" type="link" _url="https://capec.mitre.org/data/definitions/180.html"></outline>
+					<outline text="CAPEC-221: Data Serialization External Entities Blowup" type="link" _url="https://capec.mitre.org/data/definitions/221.html"></outline>
+					<outline text="CAPEC-503: WebView Exposure" type="link" _url="https://capec.mitre.org/data/definitions/503.html"></outline>
+				</outline>
+				<outline text="CAPEC-233: Privilege Escalation" type="link" _url="https://capec.mitre.org/data/definitions/233.html">
+					<outline text="CAPEC-104: Cross Zone Scripting" type="link" _url="https://capec.mitre.org/data/definitions/104.html"></outline>
+					<outline text="CAPEC-234: Hijacking a privileged process" type="link" _url="https://capec.mitre.org/data/definitions/234.html"></outline>
+					<outline text="CAPEC-30: Hijacking a Privileged Thread of Execution" type="link" _url="https://capec.mitre.org/data/definitions/30.html"></outline>
+					<outline text="CAPEC-68: Subvert Code-signing Facilities" type="link" _url="https://capec.mitre.org/data/definitions/68.html"></outline>
+					<outline text="CAPEC-69: Target Programs with Elevated Privileges" type="link" _url="https://capec.mitre.org/data/definitions/69.html"></outline>
+				</outline>
+				<outline text="CAPEC-390: Bypassing Physical Security" type="link" _url="https://capec.mitre.org/data/definitions/390.html">
+					<outline text="CAPEC-391: Bypassing Physical Locks" type="link" _url="https://capec.mitre.org/data/definitions/391.html">
+						<outline text="CAPEC-392: Lock Bumping" type="link" _url="https://capec.mitre.org/data/definitions/392.html"></outline>
+						<outline text="CAPEC-393: Lock Picking" type="link" _url="https://capec.mitre.org/data/definitions/393.html"></outline>
+						<outline text="CAPEC-394: Using a Snap Gun Lock to Force a Lock" type="link" _url="https://capec.mitre.org/data/definitions/394.html"></outline>
+					</outline>
+					<outline text="CAPEC-395: Bypassing Electronic Locks and Access Controls" type="link" _url="https://capec.mitre.org/data/definitions/395.html">
+						<outline text="CAPEC-397: Cloning Magnetic Strip Cards" type="link" _url="https://capec.mitre.org/data/definitions/397.html"></outline>
+						<outline text="CAPEC-398: Magnetic Strip Card Brute Force Attacks" type="link" _url="https://capec.mitre.org/data/definitions/398.html"></outline>
+						<outline text="CAPEC-399: Cloning RFID Cards or Chips" type="link" _url="https://capec.mitre.org/data/definitions/399.html"></outline>
+						<outline text="CAPEC-400: RFID Chip Deactivation or Destruction" type="link" _url="https://capec.mitre.org/data/definitions/400.html"></outline>
+						<outline text="CAPEC-626: Smudge Attack" type="link" _url="https://capec.mitre.org/data/definitions/626.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-507: Physical Theft" type="link" _url="https://capec.mitre.org/data/definitions/507.html"></outline>
+				<outline text="CAPEC-560: Use of Known Domain Credentials" type="link" _url="https://capec.mitre.org/data/definitions/560.html">
+					<outline text="CAPEC-555: Remote Services with Stolen Credentials" type="link" _url="https://capec.mitre.org/data/definitions/555.html"></outline>
+					<outline text="CAPEC-600: Credential Stuffing" type="link" _url="https://capec.mitre.org/data/definitions/600.html"></outline>
+					<outline text="CAPEC-652: Use of Known Kerberos Credentials" type="link" _url="https://capec.mitre.org/data/definitions/652.html">
+						<outline text="CAPEC-509: Kerberoasting" type="link" _url="https://capec.mitre.org/data/definitions/509.html"></outline>
+						<outline text="CAPEC-645: Use of Captured Tickets
+(Pass The Ticket)" type="link" _url="https://capec.mitre.org/data/definitions/645.html"></outline>
+					</outline>
+					<outline text="CAPEC-653: Use of Known Windows Credentials" type="link" _url="https://capec.mitre.org/data/definitions/653.html">
+						<outline text="CAPEC-561: Windows Admin Shares with Stolen Credentials" type="link" _url="https://capec.mitre.org/data/definitions/561.html"></outline>
+						<outline text="CAPEC-644: Use of Captured Hashes
+(Pass The Hash)" type="link" _url="https://capec.mitre.org/data/definitions/644.html"></outline>
+					</outline>
+				</outline>
+				<outline text="Password Abuse">
+					<outline text="CAPEC-50: Password Recovery Exploitation" type="link" _url="https://capec.mitre.org/data/definitions/50.html"></outline>
+					<outline text="CAPEC-16: Dictionary Based Password Attack" type="link" _url="https://capec.mitre.org/data/definitions/16.html"></outline>
+					<outline text="CAPEC-49: Password Brute Forcing" type="link" _url="https://capec.mitre.org/data/definitions/49.html">
+						<outline text="CAPEC-565: Password Spraying" type="link" _url="https://capec.mitre.org/data/definitions/565.html"></outline>
+					</outline>
+					<outline text="CAPEC-70 Try Common or Default Usernames and Passwords" type="link" _url="https://capec.mitre.org/data/definitions/70.html"></outline>
+					<outline text="CAPEC-55: Rainbow Table Password Cracking" type="link" _url="https://capec.mitre.org/data/definitions/55.html"></outline>
+				</outline>
+				<outline text="Encryption Abuse">
+					<outline text="CAPEC-112: Brute Force" type="link" _url="https://capec.mitre.org/data/definitions/112.html"></outline>
+					<outline text="CAPEC-20: Encryption Brute Forcing" type="link" _url="https://capec.mitre.org/data/definitions/20.html"></outline>
+				</outline>
+				<outline text="CAPEC-549: Local Code Execution" type="link" _url="https://capec.mitre.org/data/definitions/549.html">
+					<outline text="CAPEC-542: Targeted Malware" type="link" _url="https://capec.mitre.org/data/definitions/542.html">
+						<outline text="CAPEC-550: Install New Service" type="link" _url="https://capec.mitre.org/data/definitions/550.html"></outline>
+						<outline text="CAPEC-551: Modify Existing Service" type="link" _url="https://capec.mitre.org/data/definitions/551.html"></outline>
+						<outline text="CAPEC-552: Install Rootkit" type="link" _url="https://capec.mitre.org/data/definitions/552.html"></outline>
+						<outline text="CAPEC-556: Replace File Extension Handlers" type="link" _url="https://capec.mitre.org/data/definitions/556.html"></outline>
+						<outline text="CAPEC-558: Replace Trusted Executable" type="link" _url="https://capec.mitre.org/data/definitions/558.html"></outline>
+						<outline text="CAPEC-564: Run Software at Login" type="link" _url="https://capec.mitre.org/data/definitions/564.html"></outline>
+						<outline text="CAPEC-579: Replace Winlogon Helper DLL" type="link" _url="https://capec.mitre.org/data/definitions/579.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-248: Command Injection" type="link" _url="https://capec.mitre.org/data/definitions/248.html">
+					<outline text="CAPEC-136 LDAP Injection" type="link" _url="https://capec.mitre.org/data/definitions/136.html"></outline>
+					<outline text="CAPEC-66 SQL Injection" type="link" _url="https://capec.mitre.org/data/definitions/66.html">
+						<outline text="CAPEC-7: Blind SQL Injection" type="link" _url="https://capec.mitre.org/data/definitions/7.html"></outline>
+						<outline text="CAPEC-109: Object Relational Mapping Injection" type="link" _url="https://capec.mitre.org/data/definitions/109.html"></outline>
+						<outline text="CAPEC-110: SQL Injection through SOAP Parameter Tampering" type="link" _url="https://capec.mitre.org/data/definitions/110.html"></outline>
+						<outline text="CAPEC-108: Command Line Execution through SQL Injection" type="link" _url="https://capec.mitre.org/data/definitions/108.html"></outline>
+						<outline text="CAPEC-470: Expanding Control over the Operating System from the Database" type="link" _url="https://capec.mitre.org/data/definitions/470.html"></outline>
+					</outline>
+					<outline text="CAPEC-88 OS Command Injection" type="link" _url="https://capec.mitre.org/data/definitions/88.html"></outline>
+					<outline text="CAPEC-183 IMAP/SMTP Command Injection" type="link" _url="https://capec.mitre.org/data/definitions/183.html"></outline>
+					<outline text="CAPEC-250 XML Injection" type="link" _url="https://capec.mitre.org/data/definitions/250.html">
+						<outline text="CAPEC-83: XPath Injection" type="link" _url="https://capec.mitre.org/data/definitions/83.html"></outline>
+						<outline text="CAPEC-84: XQuery Injection" type="link" _url="https://capec.mitre.org/data/definitions/84.html"></outline>
+						<outline text="CAPEC-228: DTD Injection" type="link" _url="https://capec.mitre.org/data/definitions/228.html"></outline>
+					</outline>
+					<outline text="CAPEC-676 NoSQL Injection" type="link" _url="https://capec.mitre.org/data/definitions/676.html"></outline>
+					<outline text="CAPEC-40 Manipulating Writeable Terminal Devices" type="link" _url="https://capec.mitre.org/data/definitions/40.html"></outline>
+					<outline text="CAPEC-137: Parameter Injection" type="link" _url="https://capec.mitre.org/data/definitions/137.html">
+						<outline text="CAPEC-6: Argument Injection" type="link" _url="https://capec.mitre.org/data/definitions/6.html"></outline>
+						<outline text="CAPEC-15: Command Delimiters" type="link" _url="https://capec.mitre.org/data/definitions/15.html">
+							<outline text="CAPEC-460: HTTP Parameter Pollution 
+(HPP)" type="link" _url="https://capec.mitre.org/data/definitions/460.html"></outline>
+						</outline>
+						<outline text="CAPEC-134: Email Injection" type="link" _url="https://capec.mitre.org/data/definitions/134.html"></outline>
+						<outline text="CAPEC-135: Format String Injection" type="link" _url="https://capec.mitre.org/data/definitions/135.html"></outline>
+						<outline text="CAPEC-138: Reflection Injection" type="link" _url="https://capec.mitre.org/data/definitions/138.html"></outline>
+						<outline text="CAPEC-182: Flash Injection" type="link" _url="https://capec.mitre.org/data/definitions/182.html">
+							<outline text="CAPEC-174: Flash Parameter Injection" type="link" _url="https://capec.mitre.org/data/definitions/174.html"></outline>
+							<outline text="CAPEC-178: Cross-Site Flashing" type="link" _url="https://capec.mitre.org/data/definitions/178.html"></outline>
+						</outline>
+					</outline>
+					<outline text="CAPEC-175: Code Inclusion" type="link" _url="https://capec.mitre.org/data/definitions/175.html">
+						<outline text="CAPEC-251: Local Code Inclusion" type="link" _url="https://capec.mitre.org/data/definitions/251.html">
+							<outline text="CAPEC-252: PHP Local File Inclusion" type="link" _url="https://capec.mitre.org/data/definitions/252.html"></outline>
+							<outline text="CAPEC-640: Inclusion of Code in Existing Process" type="link" _url="https://capec.mitre.org/data/definitions/640.html"></outline>
+							<outline text="CAPEC-660: Root/Jailbreak Detection Evasion via Hooking" type="link" _url="https://capec.mitre.org/data/definitions/660.html"></outline>
+						</outline>
+						<outline text="CAPEC-253: Remote Code Inclusion" type="link" _url="https://capec.mitre.org/data/definitions/253.html">
+							<outline text="CAPEC-101: Server Side Include (SSI) Injection" type="link" _url="https://capec.mitre.org/data/definitions/101.html"></outline>
+							<outline text="CAPEC-193: PHP Remote File Inclusion" type="link" _url="https://capec.mitre.org/data/definitions/193.html"></outline>
+							<outline text="CAPEC-500: WebView Injection" type="link" _url="https://capec.mitre.org/data/definitions/500.html"></outline>
+						</outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-242: Code Injection" type="link" _url="https://capec.mitre.org/data/definitions/242.html">
+					<outline text="CAPEC-19: Embedding Scripts within Scripts" type="link" _url="https://capec.mitre.org/data/definitions/19.html"></outline>
+					<outline text="CAPEC-23: File Content Injection" type="link" _url="https://capec.mitre.org/data/definitions/23.html">
+						<outline text="CAPEC-44: Overflow Binary Resource File" type="link" _url="https://capec.mitre.org/data/definitions/44.html"></outline>
+					</outline>
+					<outline text="CAPEC-41: Using Meta-Characters in E-mail Headers to Inject Malicious Payloads" type="link" _url="https://capec.mitre.org/data/definitions/41.html"></outline>
+					<outline text="CAPEC-63: Cross-site Scripting (XSS)" type="link" _url="https://capec.mitre.org/data/definitions/63.html">
+						<outline text="CAPEC-588: DOM-Based XSS" type="link" _url="https://capec.mitre.org/data/definitions/588.html">
+							<outline text="CAPEC-18: XSS Through Non-Script Elements" type="link" _url="https://capec.mitre.org/data/definitions/18.html"></outline>
+							<outline text="CAPEC-32: XSS Through HTTP Query String" type="link" _url="https://capec.mitre.org/data/definitions/32.html"></outline>
+							<outline text="CAPEC-86: XSS Through HTTP Headers" type="link" _url="https://capec.mitre.org/data/definitions/86.html"></outline>
+							<outline text="CAPEC-198: XSS Targeting Error Pages" type="link" _url="https://capec.mitre.org/data/definitions/198.html"></outline>
+							<outline text="CAPEC-199: XSS Using Alternate Syntax" type="link" _url="https://capec.mitre.org/data/definitions/199.html"></outline>
+							<outline text="CAPEC-243: XSS Targeting HTML Attributes" type="link" _url="https://capec.mitre.org/data/definitions/243.html"></outline>
+							<outline text="CAPEC-244: XSS Targeting URI Placeholders" type="link" _url="https://capec.mitre.org/data/definitions/244.html"></outline>
+							<outline text="CAPEC-245: XSS Using Doubled Characters" type="link" _url="https://capec.mitre.org/data/definitions/245.html"></outline>
+							<outline text="CAPEC-247: XSS Using Invalid Characters" type="link" _url="https://capec.mitre.org/data/definitions/247.html"></outline>
+						</outline>
+						<outline text="CAPEC-591: Reflected XSS" type="link" _url="https://capec.mitre.org/data/definitions/591.html">
+							<outline text="CAPEC-18: XSS Through Non-Script Elements" type="link" _url="https://capec.mitre.org/data/definitions/18.html"></outline>
+							<outline text="CAPEC-32: XSS Through HTTP Query String" type="link" _url="https://capec.mitre.org/data/definitions/32.html"></outline>
+							<outline text="CAPEC-86: XSS Through HTTP Headers" type="link" _url="https://capec.mitre.org/data/definitions/86.html"></outline>
+							<outline text="CAPEC-198: XSS Targeting Error Pages" type="link" _url="https://capec.mitre.org/data/definitions/198.html"></outline>
+							<outline text="CAPEC-199: XSS Using Alternate Syntax" type="link" _url="https://capec.mitre.org/data/definitions/199.html"></outline>
+							<outline text="CAPEC-243: XSS Targeting HTML Attributes" type="link" _url="https://capec.mitre.org/data/definitions/243.html"></outline>
+							<outline text="CAPEC-244: XSS Targeting URI Placeholders" type="link" _url="https://capec.mitre.org/data/definitions/244.html"></outline>
+							<outline text="CAPEC-245: XSS Using Doubled Characters" type="link" _url="https://capec.mitre.org/data/definitions/245.html"></outline>
+							<outline text="CAPEC-247: XSS Using Invalid Characters" type="link" _url="https://capec.mitre.org/data/definitions/247.html"></outline>
+						</outline>
+						<outline text="CAPEC-592: Stored XSS" type="link" _url="https://capec.mitre.org/data/definitions/592.html">
+							<outline text="CAPEC-18: XSS Through Non-Script Elements" type="link" _url="https://capec.mitre.org/data/definitions/18.html"></outline>
+							<outline text="CAPEC-32: XSS Through HTTP Query String" type="link" _url="https://capec.mitre.org/data/definitions/32.html"></outline>
+							<outline text="CAPEC-86: XSS Through HTTP Headers" type="link" _url="https://capec.mitre.org/data/definitions/86.html"></outline>
+							<outline text="CAPEC-198: XSS Targeting Error Pages" type="link" _url="https://capec.mitre.org/data/definitions/198.html"></outline>
+							<outline text="CAPEC-199: XSS Using Alternate Syntax" type="link" _url="https://capec.mitre.org/data/definitions/199.html"></outline>
+							<outline text="CAPEC-243: XSS Targeting HTML Attributes" type="link" _url="https://capec.mitre.org/data/definitions/243.html"></outline>
+							<outline text="CAPEC-244: XSS Targeting URI Placeholders" type="link" _url="https://capec.mitre.org/data/definitions/244.html"></outline>
+							<outline text="CAPEC-245: XSS Using Doubled Characters" type="link" _url="https://capec.mitre.org/data/definitions/245.html"></outline>
+							<outline text="CAPEC-247: XSS Using Invalid Characters" type="link" _url="https://capec.mitre.org/data/definitions/247.html"></outline>
+							<outline text="CAPEC-209: XSS Using MIME Type Mismatch" type="link" _url="https://capec.mitre.org/data/definitions/209.html"></outline>
+						</outline>
+					</outline>
+					<outline text="CAPEC-468: Generic Cross-Browser Cross-Domain Theft" type="link" _url="https://capec.mitre.org/data/definitions/468.html"></outline>
+				</outline>
+				<outline text="CAPEC-240: Resource Injection" type="link" _url="https://capec.mitre.org/data/definitions/240.html">
+					<outline text="CAPEC-610: Cellular Data Injection" type="link" _url="https://capec.mitre.org/data/definitions/610.html"></outline>
+				</outline>
+				<outline text="CAPEC-586: Object Injection" type="link" _url="https://capec.mitre.org/data/definitions/586.html"></outline>
+			</outline>
+			<outline text="Denial of Service">
+				<outline text="CAPEC-125: Flooding" type="link" _url="https://capec.mitre.org/data/definitions/125.html">
+					<outline text="CAPEC-482: TCP Flood" type="link" _url="https://capec.mitre.org/data/definitions/482.html"></outline>
+					<outline text="CAPEC-486: UDP Flood" type="link" _url="https://capec.mitre.org/data/definitions/486.html"></outline>
+					<outline text="CAPEC-487: ICMP Flood" type="link" _url="https://capec.mitre.org/data/definitions/487.html"></outline>
+					<outline text="CAPEC-488: HTTP Flood" type="link" _url="https://capec.mitre.org/data/definitions/488.html"></outline>
+					<outline text="CAPEC-489: SSL Flood" type="link" _url="https://capec.mitre.org/data/definitions/489.html"></outline>
+					<outline text="CAPEC-490: Amplification" type="link" _url="https://capec.mitre.org/data/definitions/490.html"></outline>
+					<outline text="CAPEC-528: XML Flood" type="link" _url="https://capec.mitre.org/data/definitions/528.html">
+						<outline text="CAPEC-147: XML Ping of the Death" type="link" _url="https://capec.mitre.org/data/definitions/147.html"></outline>
+					</outline>
+					<outline text="CAPEC-666: BlueSmacking" type="link" _url="https://capec.mitre.org/data/definitions/666.html"></outline>
+				</outline>
+				<outline text="CAPEC-130: Excessive Allocation" type="link" _url="https://capec.mitre.org/data/definitions/130.html">
+					<outline text="CAPEC-230: Serialized Data with Nested Payloads" type="link" _url="https://capec.mitre.org/data/definitions/230.html">
+						<outline text="CAPEC-197: Exponential Data Expansion" type="link" _url="https://capec.mitre.org/data/definitions/197.html"></outline>
+						<outline text="CAPEC-491: Quadratic Data Expansion" type="link" _url="https://capec.mitre.org/data/definitions/491.html"></outline>
+					</outline>
+					<outline text="CAPEC-231: Oversized Serialized Data Payloads" type="link" _url="https://capec.mitre.org/data/definitions/231.html">
+						<outline text="CAPEC-201: Serialized Data External Linking" type="link" _url="https://capec.mitre.org/data/definitions/201.html"></outline>
+						<outline text="CAPEC-229: Serialized Data Parameter Blowup" type="link" _url="https://capec.mitre.org/data/definitions/229.html"></outline>
+					</outline>
+					<outline text="CAPEC-492: Regular Expression Exponential Blowup" type="link" _url="https://capec.mitre.org/data/definitions/492.html"></outline>
+					<outline text="CAPEC-493: SOAP Array Blowup" type="link" _url="https://capec.mitre.org/data/definitions/493.html"></outline>
+					<outline text="CAPEC-494: TCP Fragmentation" type="link" _url="https://capec.mitre.org/data/definitions/494.html"></outline>
+					<outline text="CAPEC-495: UDP Fragmentation" type="link" _url="https://capec.mitre.org/data/definitions/495.html"></outline>
+					<outline text="CAPEC-496: ICMP Fragmentation" type="link" _url="https://capec.mitre.org/data/definitions/496.html"></outline>
+				</outline>
+				<outline text="CAPEC-131: Resource Leak Exposure" type="link" _url="https://capec.mitre.org/data/definitions/131.html"></outline>
+				<outline text="CAPEC-227: Sustained Client Engagement" type="link" _url="https://capec.mitre.org/data/definitions/227.html">
+					<outline text="CAPEC-469: HTTP DoS" type="link" _url="https://capec.mitre.org/data/definitions/469.html"></outline>
+				</outline>
+				<outline text="CAPEC-25: Forced Deadlock" type="link" _url="https://capec.mitre.org/data/definitions/25.html"></outline>
+				<outline text="CAPEC-607: Obstruction" type="link" _url="https://capec.mitre.org/data/definitions/607.html">
+					<outline text="CAPEC-547: Physical Destruction of Device or Component" type="link" _url="https://capec.mitre.org/data/definitions/547.html"></outline>
+					<outline text="CAPEC-582: Route Disabling" type="link" _url="https://capec.mitre.org/data/definitions/582.html">
+						<outline text="CAPEC-583: Disabling Network Hardware" type="link" _url="https://capec.mitre.org/data/definitions/583.html"></outline>
+						<outline text="CAPEC-584: BGP Route Disabling" type="link" _url="https://capec.mitre.org/data/definitions/584.html"></outline>
+						<outline text="CAPEC-585: DNS Domain Seizure" type="link" _url="https://capec.mitre.org/data/definitions/585.html"></outline>
+					</outline>
+					<outline text="CAPEC-601: Jamming" type="link" _url="https://capec.mitre.org/data/definitions/601.html">
+						<outline text="CAPEC-559: Orbital Jamming" type="link" _url="https://capec.mitre.org/data/definitions/559.html"></outline>
+						<outline text="CAPEC-604: Wi-Fi Jamming" type="link" _url="https://capec.mitre.org/data/definitions/604.html"></outline>
+						<outline text="CAPEC-605: Cellular Jamming" type="link" _url="https://capec.mitre.org/data/definitions/605.html"></outline>
+					</outline>
+					<outline text="CAPEC-603: Blockage" type="link" _url="https://capec.mitre.org/data/definitions/603.html">
+						<outline text="CAPEC-589: DNS Blocking" type="link" _url="https://capec.mitre.org/data/definitions/589.html"></outline>
+						<outline text="CAPEC-590: IP Address Blocking" type="link" _url="https://capec.mitre.org/data/definitions/590.html"></outline>
+						<outline text="CAPEC-96: Block Access to Libraries" type="link" _url="https://capec.mitre.org/data/definitions/96.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-2: Inducing Account Lockout" type="link" _url="https://capec.mitre.org/data/definitions/2.html"></outline>
+			</outline>
+			<outline text="Repudiation">
+				<outline text="CAPEC-268: Audit Log Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/268.html">
+					<outline text="CAPEC-93: Log Injection-Tampering-Forging" type="link" _url="https://capec.mitre.org/data/definitions/93.html"></outline>
+					<outline text="CAPEC-81: Web Logs Tampering" type="link" _url="https://capec.mitre.org/data/definitions/81.html"></outline>
+				</outline>
+				<outline text="CAPEC-571: Block Logging to Central Repository" type="link" _url="https://capec.mitre.org/data/definitions/571.html"></outline>
+				<outline text="CAPEC-67: String Format Overflow in syslog()" type="link" _url="https://capec.mitre.org/data/definitions/67.html"></outline>
+				<outline text="CAPEC-195: Principal Spoof" type="link" _url="https://capec.mitre.org/data/definitions/195.html">
+					<outline text="CAPEC-587: Cross Frame Scripting (XFS)" type="link" _url="https://capec.mitre.org/data/definitions/587.html"></outline>
+					<outline text="CAPEC-599: Terrestrial Jamming" type="link" _url="https://capec.mitre.org/data/definitions/599.html"></outline>
+				</outline>
+			</outline>
+			<outline text="Tampering">
+				<outline text="CAPEC-123: Buffer Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/123.html">
+					<outline text="CAPEC-100: Overflow Buffers" type="link" _url="https://capec.mitre.org/data/definitions/100.html">
+						<outline text="CAPEC-10: Buffer Overflow via Environment Variables" type="link" _url="https://capec.mitre.org/data/definitions/10.html"></outline>
+						<outline text="CAPEC-14: Client-side Injection-induced Buffer Overflow" type="link" _url="https://capec.mitre.org/data/definitions/14.html"></outline>
+						<outline text="CAPEC-24: Filter Failure through Buffer Overflow" type="link" _url="https://capec.mitre.org/data/definitions/24.html"></outline>
+						<outline text="CAPEC-256: SOAP Array Overflow" type="link" _url="https://capec.mitre.org/data/definitions/256.html"></outline>
+						<outline text="CAPEC-42: MIME Conversion" type="link" _url="https://capec.mitre.org/data/definitions/42.html"></outline>
+						<outline text="CAPEC-44: Overflow Binary Resource File" type="link" _url="https://capec.mitre.org/data/definitions/44.html"></outline>
+						<outline text="CAPEC-45: Buffer Overflow via Symbolic Links" type="link" _url="https://capec.mitre.org/data/definitions/45.html"></outline>
+						<outline text="CAPEC-46: Overflow Variables and Tags" type="link" _url="https://capec.mitre.org/data/definitions/46.html"></outline>
+						<outline text="CAPEC-47: Buffer Overflow via Parameter Expansion" type="link" _url="https://capec.mitre.org/data/definitions/47.html"></outline>
+						<outline text="CAPEC-67: String Format Overflow in syslog()" type="link" _url="https://capec.mitre.org/data/definitions/67.html"></outline>
+						<outline text="CAPEC-8: Buffer Overflow in an API Call" type="link" _url="https://capec.mitre.org/data/definitions/8.html"></outline>
+						<outline text="CAPEC-9: Buffer Overflow in Local Command-Line Utilities" type="link" _url="https://capec.mitre.org/data/definitions/9.html"></outline>
+					</outline>
+					<outline text="CAPEC-540: Overread Buffers" type="link" _url="https://capec.mitre.org/data/definitions/540.html"></outline>
+				</outline>
+				<outline text="CAPEC-124: Shared Resource Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/124.html">
+					<outline text="CAPEC-26: Leveraging Race Conditions" type="link" _url="https://capec.mitre.org/data/definitions/26.html"></outline>
+					<outline text="CAPEC-27: Leveraging Race Conditions via Symbolic Links" type="link" _url="https://capec.mitre.org/data/definitions/27.html"></outline>
+					<outline text="CAPEC-29: Leveraging Time-of-Check and Time-of-Use (TOCTOU) Race Conditions" type="link" _url="https://capec.mitre.org/data/definitions/29.html"></outline>
+				</outline>
+				<outline text="CAPEC-129: Pointer Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/129.html"></outline>
+				<outline text="CAPEC-272: Protocol Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/272.html">
+					<outline text="CAPEC-90: Reflection Attack in Authentication Protocol" type="link" _url="https://capec.mitre.org/data/definitions/90.html"></outline>
+					<outline text="CAPEC-220: Client-Server Protocol Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/220.html">
+						<outline text="CAPEC-5: Blue Boxing" type="link" _url="https://capec.mitre.org/data/definitions/5.html"></outline>
+						<outline text="CAPEC-33: HTTP Request Smuggling" type="link" _url="https://capec.mitre.org/data/definitions/33.html"></outline>
+						<outline text="CAPEC-34: HTTP Response Splitting" type="link" _url="https://capec.mitre.org/data/definitions/34.html"></outline>
+						<outline text="CAPEC-105: HTTP Request Splitting" type="link" _url="https://capec.mitre.org/data/definitions/105.html"></outline>
+						<outline text="CAPEC-273: HTTP Response Smuggling" type="link" _url="https://capec.mitre.org/data/definitions/273.html"></outline>
+						<outline text="CAPEC-274: HTTP Verb Tampering" type="link" _url="https://capec.mitre.org/data/definitions/274.html"></outline>
+					</outline>
+					<outline text="CAPEC-276: Inter-Component Protocol Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/276.html">
+						<outline text="CAPEC-665: Exploitation of Thunderbolt Protection Flaws" type="link" _url="https://capec.mitre.org/data/definitions/665.html"></outline>
+					</outline>
+					<outline text="CAPEC-277: Data Interchange Protocol Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/277.html"></outline>
+					<outline text="CAPEC-278: Web Services Protocol Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/278.html">
+						<outline text="CAPEC-201: Serialized Data External Linking" type="link" _url="https://capec.mitre.org/data/definitions/201.html"></outline>
+						<outline text="CAPEC-221: Data Serialization External Entities Blowup" type="link" _url="https://capec.mitre.org/data/definitions/221.html"></outline>
+						<outline text="CAPEC-279: SOAP Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/279.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-153: Input Data Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/153.html">
+					<outline text="CAPEC-126: Path Traversal" type="link" _url="https://capec.mitre.org/data/definitions/126.html">
+						<outline text="CAPEC-139: Relative Path Traversal" type="link" _url="https://capec.mitre.org/data/definitions/139.html"></outline>
+						<outline text="CAPEC-597: Absolute Path Traversal" type="link" _url="https://capec.mitre.org/data/definitions/597.html"></outline>
+						<outline text="CAPEC-76: Manipulating Web Input to File System Calls" type="link" _url="https://capec.mitre.org/data/definitions/76.html"></outline>
+					</outline>
+					<outline text="CAPEC-128: Integer Attacks" type="link" _url="https://capec.mitre.org/data/definitions/128.html">
+						<outline text="CAPEC-92: Forced Integer Overflow" type="link" _url="https://capec.mitre.org/data/definitions/92.html"></outline>
+					</outline>
+					<outline text="CAPEC-267: Leverage Alternate Encoding" type="link" _url="https://capec.mitre.org/data/definitions/267.html">
+						<outline text="CAPEC-120: Double Encoding" type="link" _url="https://capec.mitre.org/data/definitions/120.html"></outline>
+						<outline text="CAPEC-3: Using Leading &apos;Ghost&apos; Character Sequences to Bypass Input Filters" type="link" _url="https://capec.mitre.org/data/definitions/3.html"></outline>
+						<outline text="CAPEC-4: Using Alternative IP Address Encodings" type="link" _url="https://capec.mitre.org/data/definitions/4.html"></outline>
+						<outline text="CAPEC-43: Exploiting Multiple Input Interpretation Layers" type="link" _url="https://capec.mitre.org/data/definitions/43.html"></outline>
+						<outline text="CAPEC-52: Embedding NULL Bytes" type="link" _url="https://capec.mitre.org/data/definitions/52.html"></outline>
+						<outline text="CAPEC-53: Postfix, Null Terminate, and Backslash" type="link" _url="https://capec.mitre.org/data/definitions/53.html"></outline>
+						<outline text="CAPEC-64: Using Slashes and URL Encoding Combined to Bypass Validation Logic" type="link" _url="https://capec.mitre.org/data/definitions/64.html"></outline>
+						<outline text="CAPEC-71: Using Unicode Encoding to Bypass Validation Logic" type="link" _url="https://capec.mitre.org/data/definitions/71.html"></outline>
+						<outline text="CAPEC-72: URL Encoding" type="link" _url="https://capec.mitre.org/data/definitions/72.html"></outline>
+						<outline text="CAPEC-78: Using Escaped Slashes in Alternate Encoding" type="link" _url="https://capec.mitre.org/data/definitions/78.html"></outline>
+						<outline text="CAPEC-79: Using Slashes in Alternate Encoding" type="link" _url="https://capec.mitre.org/data/definitions/79.html"></outline>
+						<outline text="CAPEC-80: Using UTF-8 Encoding to Bypass Validation Logic" type="link" _url="https://capec.mitre.org/data/definitions/80.html"></outline>
+					</outline>
+					<outline text="CAPEC-28: Fuzzing" type="link" _url="https://capec.mitre.org/data/definitions/28.html"></outline>
+					<outline text="CAPEC-33: HTTP Request Smuggling" type="link" _url="https://capec.mitre.org/data/definitions/33.html"></outline>
+					<outline text="CAPEC-34: HTTP Response Splitting" type="link" _url="https://capec.mitre.org/data/definitions/34.html"></outline>
+					<outline text="CAPEC-105: HTTP Request Splitting" type="link" _url="https://capec.mitre.org/data/definitions/105.html"></outline>
+					<outline text="CAPEC-165: File Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/165.html">
+						<outline text="CAPEC-73: User Controlled Filename" type="link" _url="https://capec.mitre.org/data/definitions/73.html"></outline>
+						<outline text="CAPEC-572: Artificially Inflate File Sizes" type="link" _url="https://capec.mitre.org/data/definitions/572.html">
+							<outline text="CAPEC-655: Avoid Security Tool Identification by Adding Data" type="link" _url="https://capec.mitre.org/data/definitions/655.html"></outline>
+						</outline>
+						<outline text="CAPEC-635: Alternative Execution Due to Deceptive Filenames" type="link" _url="https://capec.mitre.org/data/definitions/635.html">
+							<outline text="CAPEC-649: Adding a Space to a File Extension" type="link" _url="https://capec.mitre.org/data/definitions/649.html"></outline>
+						</outline>
+						<outline text="CAPEC-636: Hiding Malicious Data or Code within Files" type="link" _url="https://capec.mitre.org/data/definitions/636.html">
+							<outline text="CAPEC-168: Windows ::DATA Alternate Data Stream" type="link" _url="https://capec.mitre.org/data/definitions/168.html"></outline>
+						</outline>
+					</outline>
+					<outline text="CAPEC-74: Manipulating State" type="link" _url="https://capec.mitre.org/data/definitions/74.html">
+						<outline text="CAPEC-140: Bypassing of Intermediate Forms in Multiple-Form Sets" type="link" _url="https://capec.mitre.org/data/definitions/140.html"></outline>
+						<outline text="CAPEC-663: Exploitation of TransientInstruction Execution" type="link" _url="https://capec.mitre.org/data/definitions/663.html"></outline>
+					</outline>
+					<outline text="CAPEC-75: Manipulating Writeable Configuration Files" type="link" _url="https://capec.mitre.org/data/definitions/75.html"></outline>
+					<outline text="CAPEC-113: Interface Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/113.html">
+						<outline text="CAPEC-133: Try All Common Switches" type="link" _url="https://capec.mitre.org/data/definitions/133.html"></outline>
+						<outline text="CAPEC-160: Exploit Script-Based APIs" type="link" _url="https://capec.mitre.org/data/definitions/160.html"></outline>
+					</outline>
+					<outline text="CAPEC-176: Configuration/Environment Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/176.html">
+						<outline text="CAPEC-75: Manipulating Writeable Configuration Files" type="link" _url="https://capec.mitre.org/data/definitions/75.html"></outline>
+						<outline text="CAPEC-203: Manipulate Registry Information" type="link" _url="https://capec.mitre.org/data/definitions/203.html">
+							<outline text="CAPEC-51: Poison Web Service Registry" type="link" _url="https://capec.mitre.org/data/definitions/51.html"></outline>
+							<outline text="CAPEC-270: Modification of Registry Run Keys" type="link" _url="https://capec.mitre.org/data/definitions/270.html"></outline>
+							<outline text="CAPEC-478: Modification of Windows Service Configuration" type="link" _url="https://capec.mitre.org/data/definitions/478.html"></outline>
+						</outline>
+						<outline text="CAPEC-271: Schema Poisoning" type="link" _url="https://capec.mitre.org/data/definitions/271.html">
+							<outline text="CAPEC-146: XML Schema Poisoning" type="link" _url="https://capec.mitre.org/data/definitions/146.html"></outline>
+						</outline>
+						<outline text="CAPEC-536: Data Injection During Configuration" type="link" _url="https://capec.mitre.org/data/definitions/536.html"></outline>
+						<outline text="CAPEC-578: Disable Security Software" type="link" _url="https://capec.mitre.org/data/definitions/578.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-161: Infrastructure Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/161.html">
+					<outline text="CAPEC-481: Contradictory Destinations inTraffic Routing Schemes" type="link" _url="https://capec.mitre.org/data/definitions/481.html"></outline>
+					<outline text="CAPEC-166: Force the System to Reset Values" type="link" _url="https://capec.mitre.org/data/definitions/166.html"></outline>
+					<outline text="CAPEC-141: Cache Poisoning" type="link" _url="https://capec.mitre.org/data/definitions/141.html">
+						<outline text="CAPEC-51: Poison Web Service Registry" type="link" _url="https://capec.mitre.org/data/definitions/51.html"></outline>
+						<outline text="CAPEC-142: DNS Cache Poisoning" type="link" _url="https://capec.mitre.org/data/definitions/142.html"></outline>
+					</outline>
+					<outline text="CAPEC-268: Audit Log Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/268.html">
+						<outline text="CAPEC-93: Log Injection-Tampering-Forging" type="link" _url="https://capec.mitre.org/data/definitions/93.html"></outline>
+						<outline text="CAPEC-81: Web Logs Tampering" type="link" _url="https://capec.mitre.org/data/definitions/81.html"></outline>
+					</outline>
+					<outline text="CAPEC-571: Block Logging to Central Repository" type="link" _url="https://capec.mitre.org/data/definitions/571.html"></outline>
+				</outline>
+				<outline text="CAPEC-184: Software Integrity Attack" type="link" _url="https://capec.mitre.org/data/definitions/184.html">
+					<outline text="CAPEC-185: Malicious Software Download" type="link" _url="https://capec.mitre.org/data/definitions/185.html"></outline>
+					<outline text="CAPEC-186: Malicious Software Update" type="link" _url="https://capec.mitre.org/data/definitions/186.html">
+						<outline text="CAPEC-187: Malicious Automated Software Update via Redirection" type="link" _url="https://capec.mitre.org/data/definitions/187.html"></outline>
+						<outline text="CAPEC-533: Malicious Manual Software Update" type="link" _url="https://capec.mitre.org/data/definitions/553.html"></outline>
+						<outline text="CAPEC-614: Rooting SIM Cards " type="link" _url="https://capec.mitre.org/data/definitions/614.html"></outline>
+						<outline text="CAPEC-657: Malicious Automated Software Update via Spoofing" type="link" _url="https://capec.mitre.org/data/definitions/657.html"></outline>
+					</outline>
+					<outline text="CAPEC-663: Exploitation of Transient Instruction Execution" type="link" _url="https://capec.mitre.org/data/definitions/663.html"></outline>
+					<outline text="CAPEC-669: Alteration of a Software Update" type="link" _url="https://capec.mitre.org/data/definitions/669.html"></outline>
+				</outline>
+				<outline text="CAPEC-438: Modification During Manufacture" type="link" _url="https://capec.mitre.org/data/definitions/438.html">
+					<outline text="CAPEC-444: Development Alteration" type="link" _url="https://capec.mitre.org/data/definitions/444.html">
+						<outline text="CAPEC-206: Signing Malicious Code" type="link" _url="https://capec.mitre.org/data/definitions/206.html"></outline>
+						<outline text="CAPEC-443: Malicious Logic Inserted into Product Software by Authorized Developer" type="link" _url="https://capec.mitre.org/data/definitions/443.html"></outline>
+						<outline text="CAPEC-445: Malicious Logic Insertion into Product Software via Configuration Management Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/445.html"></outline>
+						<outline text="CAPEC-446: Malicious Logic Insertion into Product Software via 3rd Party Component Dependency" type="link" _url="https://capec.mitre.org/data/definitions/446.html"></outline>
+						<outline text="CAPEC-511: Infiltration of Software Development Environment" type="link" _url="https://capec.mitre.org/data/definitions/511.html"></outline>
+						<outline text="CAPEC-516: Hardware Component Substitution During Baselining " type="link" _url="https://capec.mitre.org/data/definitions/516.html"></outline>
+						<outline text="CAPEC-520: Counterfeit Hardware Component Inserted During Product Assembly" type="link" _url="https://capec.mitre.org/data/definitions/520.html"></outline>
+						<outline text="CAPEC-532: Altered Installed BIOS" type="link" _url="https://capec.mitre.org/data/definitions/532.html"></outline>
+						<outline text="CAPEC-537: Infiltration of Hardware Development Environment" type="link" _url="https://capec.mitre.org/data/definitions/537.html"></outline>
+						<outline text="CAPEC-538: Open-Source Library Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/538.html"></outline>
+						<outline text="CAPEC-539: ASIC with Malicious Functionality" type="link" _url="https://capec.mitre.org/data/definitions/539.html"></outline>
+						<outline text="CAPEC-670: Software Development Tools Maliciously Altered" type="link" _url="https://capec.mitre.org/data/definitions/670.html"></outline>
+						<outline text="CAPEC-672: Malicious Code Implanted During Chip Programming" type="link" _url="https://capec.mitre.org/data/definitions/672.html"></outline>
+						<outline text="CAPEC-673: Developer Signing Maliciously Altered Software" type="link" _url="https://capec.mitre.org/data/definitions/673.html"></outline>
+						<outline text="CAPEC-678: System Build Data Maliciously Altered" type="link" _url="https://capec.mitre.org/data/definitions/678.html"></outline>
+					</outline>
+					<outline text="CAPEC-447: Design Alteration" type="link" _url="https://capec.mitre.org/data/definitions/447.html">
+						<outline text="CAPEC-517: Documentation Alteration to Circumvent Dial-down" type="link" _url="https://capec.mitre.org/data/definitions/517.html"></outline>
+						<outline text="CAPEC-518: Documentation Alteration to Produce Under-Performing Systems" type="link" _url="https://capec.mitre.org/data/definitions/518.html"></outline>
+						<outline text="CAPEC-519: Documentation Alteration to Cause Errors in System Design" type="link" _url="https://capec.mitre.org/data/definitions/519.html"></outline>
+						<outline text="CAPEC-521: Hardware Design Specifications are Altered" type="link" _url="https://capec.mitre.org/data/definitions/512.html"></outline>
+						<outline text="CAPEC-671: Requirements for ASIC Functionality Maliciously Altered" type="link" _url="https://capec.mitre.org/data/definitions/671.html"></outline>
+						<outline text="CAPEC-674: Design for FPGA Maliciously Altered" type="link" _url="https://capec.mitre.org/data/definitions/674.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-440: Hardware Integrity Attack" type="link" _url="https://capec.mitre.org/data/definitions/440.html">
+					<outline text="CAPEC-401: Physically Hacking Hardware" type="link" _url="https://capec.mitre.org/data/definitions/401.html">
+						<outline text="CAPEC-402: Bypassing ATA Password Security" type="link" _url="https://capec.mitre.org/data/definitions/402.html"></outline>
+					</outline>
+					<outline text="CAPEC-534: Malicious Hardware Update" type="link" _url="https://capec.mitre.org/data/definitions/534.html">
+						<outline text="CAPEC-531: Hardware Component Substitution" type="link" _url="https://capec.mitre.org/data/definitions/531.html">
+							<outline text="CAPEC-530: Provide Counterfeit Component" type="link" _url="https://capec.mitre.org/data/definitions/530.html"></outline>
+							<outline text="CAPEC-535: Malicious Gray Market Hardware" type="link" _url="https://capec.mitre.org/data/definitions/535.html"></outline>
+						</outline>
+						<outline text="CAPEC-677: Server Functionality Compromise" type="link" _url="https://capec.mitre.org/data/definitions/677.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-439: Manipulation During Distribution" type="link" _url="https://capec.mitre.org/data/definitions/439.html">
+					<outline text="CAPEC-522: Malicious Hardware Component Replacement" type="link" _url="https://capec.mitre.org/data/definitions/522.html"></outline>
+					<outline text="CAPEC-523: Malicious Software Implanted" type="link" _url="https://capec.mitre.org/data/definitions/523.html"></outline>
+					<outline text="CAPEC-524: Rogue Integration Procedures" type="link" _url="https://capec.mitre.org/data/definitions/524.html"></outline>
+				</outline>
+				<outline text="CAPEC-441: Malicious Logic Insertion" type="link" _url="https://capec.mitre.org/data/definitions/441.html">
+					<outline text="CAPEC-442: Infected Software" type="link" _url="https://capec.mitre.org/data/definitions/442.html">
+						<outline text="CAPEC-448: Embed Virus into DLL" type="link" _url="https://capec.mitre.org/data/definitions/448.html"></outline>
+					</outline>
+					<outline text="CAPEC-452: Infected Hardware" type="link" _url="https://capec.mitre.org/data/definitions/452.html">
+						<outline text="CAPEC-638: Altered Component Firmware" type="link" _url="https://capec.mitre.org/data/definitions/638.html"></outline>
+					</outline>
+					<outline text="CAPEC-456: Infected Memory" type="link" _url="https://capec.mitre.org/data/definitions/456.html">
+						<outline text="CAPEC-457: USB Memory Attacks" type="link" _url="https://capec.mitre.org/data/definitions/457.html"></outline>
+						<outline text="CAPEC-458: Flash Memory Attacks" type="link" _url="https://capec.mitre.org/data/definitions/458.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-548: Contaminate Resources" type="link" _url="https://capec.mitre.org/data/definitions/548.html"></outline>
+				<outline text="CAPEC-594: Traffic Injection" type="link" _url="https://capec.mitre.org/data/definitions/594.html">
+					<outline text="CAPEC-595: Connection Reset" type="link" _url="https://capec.mitre.org/data/definitions/595.html">
+						<outline text="CAPEC-596: TCP RST Injection" type="link" _url="https://capec.mitre.org/data/definitions/596.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-624: Hardware Fault Injection" type="link" _url="https://capec.mitre.org/data/definitions/624.html">
+					<outline text="CAPEC-625: Mobile Device Fault Injection" type="link" _url="https://capec.mitre.org/data/definitions/625.html"></outline>
+				</outline>
+			</outline>
+			<outline text="Spoofing (CAPEC-156: Engage In Deceptive Interactions)" type="link" _url="https://capec.mitre.org/data/definitions/156.html">
+				<outline text=" CAPEC-148: Content Spoofing" type="link" _url="https://capec.mitre.org/data/definitions/148.html">
+					<outline text="CAPEC-145: Checksum Spoofing" type="link" _url="https://capec.mitre.org/data/definitions/145.html"></outline>
+					<outline text="CAPEC-218: Spoofing of UDDI/ebXML Messages" type="link" _url="https://capec.mitre.org/data/definitions/218.html"></outline>
+					<outline text=" CAPEC-502: Intent Spoof" type="link" _url="https://capec.mitre.org/data/definitions/502.html"></outline>
+					<outline text=" CAPEC-627: Counterfeit GPS Signals" type="link" _url="https://capec.mitre.org/data/definitions/627.html">
+						<outline text="CAPEC-628: Carry-Off GPS Attack" type="link" _url="https://capec.mitre.org/data/definitions/628.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-151: Identity Spoofing" type="link" _url="https://capec.mitre.org/data/definitions/151.html">
+					<outline text=" CAPEC-194: Fake the Source of Data" type="link" _url="https://capec.mitre.org/data/definitions/194.html">
+						<outline text=" CAPEC-275: DNS Rebinding" type="link" _url="https://capec.mitre.org/data/definitions/275.html"></outline>
+						<outline text="CAPEC-543: Counterfeit Websites" type="link" _url="https://capec.mitre.org/data/definitions/543.html"></outline>
+						<outline text="CAPEC-544: Counterfeit Organizations" type="link" _url="https://capec.mitre.org/data/definitions/544.html"></outline>
+						<outline text="CAPEC-598: DNS Spoofing" type="link" _url="https://capec.mitre.org/data/definitions/598.html"></outline>
+						<outline text="CAPEC-633: Token Impersonation" type="link" _url="https://capec.mitre.org/data/definitions/633.html"></outline>
+					</outline>
+					<outline text="CAPEC-195: Principal Spoof" type="link" _url="https://capec.mitre.org/data/definitions/195.html">
+						<outline text="CAPEC-587: Cross Frame Scripting (XFS)" type="link" _url="https://capec.mitre.org/data/definitions/587.html"></outline>
+						<outline text="CAPEC-599: Terrestrial Jamming" type="link" _url="https://capec.mitre.org/data/definitions/599.html"></outline>
+					</outline>
+					<outline text=" CAPEC-473: Signature Spoof" type="link" _url="https://capec.mitre.org/data/definitions/473.html">
+						<outline text="CAPEC-459: Creating a Rogue Certification Authority Certificate" type="link" _url="https://capec.mitre.org/data/definitions/459.html"></outline>
+						<outline text="CAPEC-474: Signature Spoofing by Key Theft" type="link" _url="https://capec.mitre.org/data/definitions/474.html"></outline>
+						<outline text="CAPEC-475: Signature Spoofing by Improper Validation" type="link" _url="https://capec.mitre.org/data/definitions/475.html"></outline>
+						<outline text="CAPEC-476: Signature Spoofing by Misrepresentation" type="link" _url="https://capec.mitre.org/data/definitions/476.html"></outline>
+						<outline text="CAPEC-477: Signature Spoofing by Mixing Signed and Unsigned Content" type="link" _url="https://capec.mitre.org/data/definitions/477.html"></outline>
+						<outline text="CAPEC-479: Malicious Root Certificate" type="link" _url="https://capec.mitre.org/data/definitions/479.html"></outline>
+						<outline text="CAPEC-485: Signature Spoofing by Key Recreation" type="link" _url="https://capec.mitre.org/data/definitions/485.html"></outline>
+					</outline>
+					<outline text=" CAPEC-89: Pharming" type="link" _url="https://capec.mitre.org/data/definitions/89.html"></outline>
+					<outline text="CAPEC-98: Phishing" type="link" _url="https://capec.mitre.org/data/definitions/98.html">
+						<outline text="CAPEC-163: Spear Phishing" type="link" _url="https://capec.mitre.org/data/definitions/163.html"></outline>
+						<outline text="CAPEC-164: Mobile Phishing" type="link" _url="https://capec.mitre.org/data/definitions/164.html"></outline>
+						<outline text="CAPEC-656: Voice Phishing" type="link" _url="https://capec.mitre.org/data/definitions/656.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-154: Resource Location Spoofing" type="link" _url="https://capec.mitre.org/data/definitions/154.html">
+					<outline text="CAPEC-159: Redirect Access to Libraries" type="link" _url="https://capec.mitre.org/data/definitions/159.html">
+						<outline text="CAPEC-132: Symlink Attack" type="link" _url="https://capec.mitre.org/data/definitions/132.html"></outline>
+						<outline text="CAPEC-38: Leveraging/Manipulating Configuration File Search Paths" type="link" _url="https://capec.mitre.org/data/definitions/38.html"></outline>
+						<outline text="CAPEC-471: Search Order Hijacking" type="link" _url="https://capec.mitre.org/data/definitions/471.html"></outline>
+						<outline text="CAPEC-641: DLL Side-Loading" type="link" _url="https://capec.mitre.org/data/definitions/641.html"></outline>
+					</outline>
+					<outline text="CAPEC-141: Cache Poisoning" type="link" _url="https://capec.mitre.org/data/definitions/141.html">
+						<outline text="CAPEC-51: Poison Web Service Registry" type="link" _url="https://capec.mitre.org/data/definitions/51.html"></outline>
+						<outline text="CAPEC-142: DNS Cache Poisoning" type="link" _url="https://capec.mitre.org/data/definitions/142.html"></outline>
+					</outline>
+					<outline text="CAPEC-616: Establish Rogue Location" type="link" _url="https://capec.mitre.org/data/definitions/616.html">
+						<outline text="CAPEC-505: Scheme Squatting" type="link" _url="https://capec.mitre.org/data/definitions/505.html"></outline>
+						<outline text="CAPEC-611: BitSquatting" type="link" _url="https://capec.mitre.org/data/definitions/611.html"></outline>
+						<outline text="CAPEC-615: Evil Twin Wi-Fi Attack" type="link" _url="https://capec.mitre.org/data/definitions/615.html"></outline>
+						<outline text="CAPEC-617: Cellular Rogue Base Station" type="link" _url="https://capec.mitre.org/data/definitions/617.html"></outline>
+						<outline text="CAPEC-630: TypoSquatting" type="link" _url="https://capec.mitre.org/data/definitions/630.html"></outline>
+						<outline text="CAPEC-631: SoundSquatting" type="link" _url="https://capec.mitre.org/data/definitions/631.html"></outline>
+						<outline text="CAPEC-632: Homograph Attack via Homoglyphs" type="link" _url="https://capec.mitre.org/data/definitions/632.html"></outline>
+						<outline text="CAPEC-667: Bluetooth Impersonation AttackS (BIAS)" type="link" _url="https://capec.mitre.org/data/definitions/667.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-173: Action Spoofing" type="link" _url="https://capec.mitre.org/data/definitions/173.html">
+					<outline text="CAPEC-103: Clickjacking" type="link" _url="https://capec.mitre.org/data/definitions/103.html">
+						<outline text="CAPEC-181: Flash File Overlay" type="link" _url="https://capec.mitre.org/data/definitions/181.html"></outline>
+						<outline text="CAPEC-222: iFrame Overlay" type="link" _url="https://capec.mitre.org/data/definitions/222.html"></outline>
+					</outline>
+					<outline text="CAPEC-501: Android Activity Hijack" type="link" _url="https://capec.mitre.org/data/definitions/501.html"></outline>
+					<outline text="CAPEC-504: Task Impersonation" type="link" _url="https://capec.mitre.org/data/definitions/504.html">
+						<outline text="CAPEC-654: Credential Prompt Impersonation" type="link" _url="https://capec.mitre.org/data/definitions/654.html"></outline>
+					</outline>
+					<outline text="CAPEC-506: Tapjacking" type="link" _url="https://capec.mitre.org/data/definitions/506.html"></outline>
+				</outline>
+				<outline text="CAPEC-416: Manipulate Human Behavior" type="link" _url="https://capec.mitre.org/data/definitions/416.html">
+					<outline text="CAPEC-407: Pretexting" type="link" _url="https://capec.mitre.org/data/definitions/407.html">
+						<outline text="CAPEC-383: Harvesting Information via API Event Monitoring" type="link" _url="https://capec.mitre.org/data/definitions/383.html"></outline>
+						<outline text="CAPEC-412: Pretexting via Customer Service" type="link" _url="https://capec.mitre.org/data/definitions/412.html"></outline>
+						<outline text="CAPEC-413: Pretexting via Tech Support" type="link" _url="https://capec.mitre.org/data/definitions/413.html"></outline>
+						<outline text="CAPEC-414: Pretexting via Delivery Person" type="link" _url="https://capec.mitre.org/data/definitions/414.html"></outline>
+						<outline text="CAPEC-415: Pretexting via Phone" type="link" _url="https://capec.mitre.org/data/definitions/415.html"></outline>
+					</outline>
+					<outline text="CAPEC-417: Influence Perception" type="link" _url="https://capec.mitre.org/data/definitions/417.html">
+						<outline text="CAPEC-418: Influence Perception of Reciprocation" type="link" _url="https://capec.mitre.org/data/definitions/418.html"></outline>
+						<outline text="CAPEC-420: Influence Perception of Scarcity" type="link" _url="https://capec.mitre.org/data/definitions/420.html"></outline>
+						<outline text="CAPEC-421: Influence Perception of Authority" type="link" _url="https://capec.mitre.org/data/definitions/421.html"></outline>
+						<outline text="CAPEC-422: Influence Perception of Commitment and Consistency" type="link" _url="https://capec.mitre.org/data/definitions/422.html"></outline>
+						<outline text="CAPEC-423: Influence Perception of Liking" type="link" _url="https://capec.mitre.org/data/definitions/423.html"></outline>
+						<outline text="CAPEC-424: Influence Perception of Consensus or Social Proof" type="link" _url="https://capec.mitre.org/data/definitions/424.html"></outline>
+					</outline>
+					<outline text="CAPEC-425: Target Influence via Framing" type="link" _url="https://capec.mitre.org/data/definitions/425.html"></outline>
+					<outline text="CAPEC-426: Influence via Incentives" type="link" _url="https://capec.mitre.org/data/definitions/426.html"></outline>
+					<outline text="CAPEC-427: Influence via Psychological Principles" type="link" _url="https://capec.mitre.org/data/definitions/427.html">
+						<outline text="CAPEC-428: Influence via Modes of Thinking" type="link" _url="https://capec.mitre.org/data/definitions/428.html"></outline>
+						<outline text="CAPEC-429: Target Influence via Eye Cues" type="link" _url="https://capec.mitre.org/data/definitions/429.html"></outline>
+						<outline text="CAPEC-433: Target Influence via The Human Buffer Overflow" type="link" _url="https://capec.mitre.org/data/definitions/433.html"></outline>
+						<outline text="CAPEC-434: Target Influence via Interview and Interrogation" type="link" _url="https://capec.mitre.org/data/definitions/434.html"></outline>
+						<outline text="CAPEC-435: Target Influence via Instant Rapport" type="link" _url="https://capec.mitre.org/data/definitions/435.html"></outline>
+					</outline>
+				</outline>
+				<outline text="CAPEC-389: Content Spoofing Via Application API Manipulation" type="link" _url="https://capec.mitre.org/data/definitions/389.html"></outline>
+			</outline>
+			<outline text="LICENSE
+The MITRE Corporation (MITRE) hereby grants you a non-exclusive, royalty-free license to use Common Attack Pattern Enumeration and Classification (CAPEC™) for research, development, and commercial purposes. Any copy you make for such purposes is authorized provided that you reproduce MITRE’s copyright designation and this license in any such copy.
+
+DISCLAIMERS
+ALL DOCUMENTS AND THE INFORMATION CONTAINED THEREIN ARE PROVIDED ON AN &quot;AS IS&quot; BASIS AND THE CONTRIBUTOR, THE ORGANIZATION HE/SHE REPRESENTS OR IS SPONSORED BY (IF ANY), THE MITRE CORPORATION, ITS BOARD OF TRUSTEES, OFFICERS, AGENTS, AND EMPLOYEES, DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION THEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE."></outline>
+			<outline text="This work is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License. 
+
+Brett Crawley" type="link" _url="https://creativecommons.org/licenses/by-nd/4.0/"></outline>
+		</outline>
+	</body>
+</opml>
